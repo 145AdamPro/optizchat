@@ -32,7 +32,7 @@
 ## Phase 3: Advanced Features and Scalability (Next 6 months)
 
 * **Advanced AI Capabilities:**
-    * Integrate more sophisticated AI models (GPT-4, etc.) for improved responses.
+    * Integrate more sophisticated AI models (GPT-4, Gemini 1.5 Pro etc.) for improved responses.
     * Implement personalized chatbot experiences.
     * Explore integration with other AI models for specific tasks (e.g., code generation).
 * **Community Building:**
