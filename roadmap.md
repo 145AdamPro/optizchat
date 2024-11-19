@@ -4,7 +4,7 @@
 
 * **Core Functionality:**
     * Implement basic text-based chat interface.
-    * Integrate with OpenAI's API for GPT-3.5 powered responses.
+    * Integrate with Gemini's API for Gemini powered responses.
     * User authentication and authorization.
     * Basic user profile management.
 * **Technical Infrastructure:**
