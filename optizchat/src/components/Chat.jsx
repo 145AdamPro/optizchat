@@ -11,7 +11,7 @@ const Chat = () => {
   const [currentChat, setCurrentChat] = useState(null);
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState("");
-  const [model, setModel] = useState("Gemini-pro");
+  const [model, setModel] = useState("gemini-pro");
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
@@ -178,9 +178,9 @@ const Chat = () => {
             onChange={(e) => setModel(e.target.value)}
             className="bg-gray-50 dark:bg-gray-700 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5"
           >
-            <option value="Gemini-pro">Gemini-pro</option>
-            <option value="Gemini-1.5-pro">Gemini-1.5-pro</option>
-            <option value="Gemini-1.5-flash">Gemini-1.5-flash</option>
+            <option value="Gemini-pro">Gemini 1.0 Pro</option>
+            <option value="Gemini-1.5-pro">Gemini 1.5 Pro</option>
+            <option value="Gemini-1.5-flash">Gemini 1.5 Flash</option>
           </select>
         </div>
 
