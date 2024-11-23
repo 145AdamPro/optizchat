@@ -181,7 +181,6 @@ const Chat = () => {
             <option value="gemini-pro">Gemini 1.0 Pro</option>
             <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
             <option value="gemini-1.5-flash">Gemini 1.5 Flash</option>
-            <option value="llama3-8b-8192">Llama3 8B 8192</option>
           </select>
         </div>
 
