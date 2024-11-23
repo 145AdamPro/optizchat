@@ -1,4 +1,5 @@
 import Groq from "groq-sdk";
+import { getGroqChatCompletion } from "../components/Chat";
 
 const groq = new Groq({
     apiKey: import.meta.env.VITE_GROQ_API_KEY,
