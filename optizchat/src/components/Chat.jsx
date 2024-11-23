@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useAuth } from "../contexts/AuthContext";
 import { supabase } from "../lib/supabase";
 import { generateChatResponse } from "../lib/gemini";
-import { getGroqChatCompletion } from "../lib/groqService";
 import { motion } from "framer-motion";
 import { ChatBubbleLeftIcon, PaperAirplaneIcon, PlusIcon, TrashIcon } from "@heroicons/react/24/outline";
 
